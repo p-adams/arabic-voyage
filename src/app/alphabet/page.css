@@ -1,0 +1,14 @@
+.alphabet-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.alphabet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  outline: 1px solid lightgray;
+  width: 70px;
+}
