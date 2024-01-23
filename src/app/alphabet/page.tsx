@@ -9,6 +9,7 @@ function AlphabetModule() {
         {arabicAlphabet.map((ch, i) => (
           <div key={ch.arabicChar} className="alphabet-card">
             <div>{ch.arabicChar}</div>
+            <div>{ch.letterName}</div>
             <div>{ch.transliteration}</div>
           </div>
         ))}
